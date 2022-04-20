@@ -56,3 +56,19 @@ video, iframe {
     justify-content: center;
     align-items: center;
 }
+
+#links {
+    pointer-events: all;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#links a {
+    padding: 5px;
+}
+
+#links a img {
+    pointer-events: none;
+}
