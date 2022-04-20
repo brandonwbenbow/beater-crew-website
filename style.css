@@ -28,7 +28,7 @@ body {
 }
 
 video, iframe {
-    /* width: fit-content; */
+    min-width: 100%;
     height: 100%;
     object-fit: cover;
     opacity: 0.3;
@@ -71,4 +71,6 @@ video, iframe {
 
 #links a img {
     pointer-events: none;
+    width: 48px;
+    height: 48px;
 }
